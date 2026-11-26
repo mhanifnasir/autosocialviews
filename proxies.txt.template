@@ -1,0 +1,20 @@
+# AutoViews Proxy List Template
+# Add your proxies below in the exact format shown.
+# Leave a blank line between each proxy block.
+#
+# Format:
+# server: [IP address or host domain]
+# port: [Port number]
+# secret: [Username:Password or empty if IP-auth/no password]
+
+server: 12.34.56.78
+port: 8080
+secret: myuser:mypassword
+
+server: 98.76.54.32
+port: 3128
+secret: admin:123456
+
+server: 55.66.77.88
+port: 1080
+secret: 

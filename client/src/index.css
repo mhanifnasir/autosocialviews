@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply antialiased;
+}
+
+html, body {
+  @apply w-full m-0 p-0;
+  min-height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+#root {
+  @apply w-full m-0 p-0 flex flex-col;
+  min-height: 100%;
+}
+
+body {
+  @apply bg-dark text-white;
+}
+
+/* High-visibility scrollbar styling for horizontal and vertical scrolling */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 5px;
+  border: 2px solid #0f172a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #475569 #0f172a;
+}
+
+/* Facebook Responsive Video Constraints */
+.fb-video iframe, .fb-video span {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain;
+}

@@ -1,0 +1,20 @@
+node_modules/
+package-lock.json
+dist/
+build/
+.env
+.env.local
+.env.*
+.env.example
+server/.env
+client/.env
+*.db
+*.log
+.vscode/
+.DS_Store
+
+# Credentials and secrets
+api.txt
+proxies.txt
+.profiles/
+
